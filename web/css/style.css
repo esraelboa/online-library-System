@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Monda', sans-serif;
+    text-align: center;
+    background: #201a1c;
+}
+/*header{
+   position: absolute;
+   left: 0;
+   right: 0;
+   clear: both;
+   overflow: auto;
+}*/
+.name{
+    font-size: 4em;
+    color: #f6e7ce;
+    font-weight: 900;
+   margin-bottom:0.5em;
+}
+.nav1{
+    background:#201a1c;
+   /* position:fixed;
+    left: 0;
+    right: 0;
+    clear: both;
+    overflow: auto;*/
+}
+.nav1 ul{
+    list-style:none;
+    margin:0 auto ;
+    padding: 0;
+}
+.nav1 li{
+    display: inline-block;
+    margin: 1em;
+}
+.nav1 a{
+    text-decoration:none;
+    text-transform: uppercase;
+    color:#f6e7ce;
+    font-size: 1em;
+    font-weight: 900;    
+}
+.intro{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(books.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 10em 0;
+    color: #f6e7ce;
+}
+.content h2{
+font-weight: 900;
+font-size: 2.5em;
+text-transform:uppercase;
+}
+.content span{
+font-weight: 400;
+font-size: 1.5em;    
+display: block;
+margin-top: 1em;
+}
